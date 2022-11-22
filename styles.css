@@ -55,7 +55,7 @@ img {
     font-family: Fraunces, sans-serif;
     margin-top: 0;
     line-height: 1;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .product_description {
@@ -90,6 +90,8 @@ img {
 
 .btn_container {
     display: inline-block;
+    position: relative;
+    top: -10px;
 }
 
 .cart_btn {
