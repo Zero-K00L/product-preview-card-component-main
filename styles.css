@@ -67,20 +67,29 @@ img {
     margin-bottom: 19px;
 }
 
+.pricing {
+    display: flex;
+}
+
 .discounted_price {
     color: var(--darkCyan);
     font-family: Fraunces, sans-serif;
     display: inline-block;
-    font-size: 31px;
+    font-size: 32px;
     margin-top: 0;
 }
 
 .original_price {
     display: inline-block;
-    font-size: 11px;
+    font-size: 13px;
     color: var(--darkGrayishBlue);
     text-decoration: solid line-through var(--darkGrayishBlue) 1px;
     font-weight: 500;
+    padding-left: 19px;
+}
+
+.btn_container {
+    display: inline-block;
 }
 
 .cart_btn {
@@ -89,13 +98,17 @@ img {
     background-color: var(--darkCyan);
     color: white;
     font-family: Montserrat, sans-serif;
+    font-weight: 700;
     border: none;
     border-radius: 6px;
     margin-left: 25px;
+/*     display: flex;
+    align-items: center;
+    justify-content: space- */
 }
 
 .cart_icon {
-
+    
 }
 
 /* Spacing */
